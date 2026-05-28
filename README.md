@@ -6,10 +6,22 @@ This project is a static, personal website built with [Astro](https://astro.buil
 
 - [Node.js](https://nodejs.org/en/download) (npm)
 
-### How To build From Source
+# Building From Source
 
-#### Windows
+### Windows
 
-```bash
-npm install
+Run from powershell:
+
+```powershell
+# Installs all npm dependencies needed to build.
+$~\personal-website> npm install
+
+# Builds the website and stores the output static files in ./dist/*
+$~\personal-website> npm run build
+```
+
+To preview the final statically built website, run the following in powershell:
+
+```powershell
+$~\personal-website> npm run preview
 ```
