@@ -6,7 +6,17 @@ This project is a static, personal website built with [Astro](https://astro.buil
 
 - [Node.js](https://nodejs.org/en/download) (npm)
 
-# Building From Source
+## Installing Dependencies
+
+### Windows
+
+In powershell, run:
+
+```powershell
+winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements
+```
+
+## Building From Source
 
 ### Windows
 
